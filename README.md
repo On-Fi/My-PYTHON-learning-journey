@@ -7,15 +7,16 @@ Comments in Python = # Commenttext
 
 | **Reserved words in Python** |        |        |       |        |         |          |        |
 |------------------------------|--------|--------|-------|--------|---------|----------|--------|
-|                            | **def**    | **if**     | **raise** | **None**   | **del**     | **import**   | **return** |
-|                            | **elif**   | **in**     | **try**   | **and**    | **else**    | **is**       | **while**  |
-|                            | **except** | **lambda** | **with**  | **assert** | **finally** | **nonlocal** | **yield**  |
-|                            | **for**    | **not**    | **class** | **form**   | **or**      | **continue** | **global** |
-|                            | **break**  |  **False** |  **True** | **as**     | **pass**    |              |           | 
+|                              | **def**    | **if**     | **raise** | **None**   | **del**     | **import**   | **return** |
+|                              | **elif**   | **in**     | **try**   | **and**    | **else**    | **is**       | **while**  |
+|                              | **except** | **lambda** | **with**  | **assert** | **finally** | **nonlocal** | **yield**  |
+|                              | **for**    | **not**    | **class** | **form**   | **or**      | **continue** | **global** |
+|                              | **break**  |  **False** |  **True** | **as**     | **pass**    |              |            | 
 
 
 ## 2. Built in Functions in Python
-**Python has a set of built-in functions.**
+**Python has a set of built-in functions.** <br>
+
 | **Function**  | **Description**                                                                                |
 |---------------|------------------------------------------------------------------------------------------------|
 | abs()         | Returns the absolute value of a number                                                         |
@@ -35,3 +36,35 @@ Comments in Python = # Commenttext
 | dict()        | Returns a dictionary (Array)                                                                   |
 | dir()         | Returns a list of the specified object's properties and methods                                |
 | divmod()      | Returns the quotient and the remainder  when argument1 is divided by argument2                 |
+| enumerate()   | Takes a collection (e.g. a tuple) and returns it as an enumerate object                        |
+| eval()        | Evaluates and executes an expression                                                           |
+| exec()        | Executes the specified code (or object)                                                        |
+| filter()      | Use a filter function to exclude items in an iterable object                                   |
+| float()       | Returns a floating point number                                                                |
+| format()      | Formats a specified value                                                                      |
+| frozenset()   | Returns a frozenset object                                                                     |
+| getattr()     | Returns the value of the specified attribute (property or method)                              |
+| globals()     | Returns the current global symbol table as a dictionary                                        |
+| hasattr()     | Returns True if the specified object has the specified attribute (property/method)             |
+| hash()        | Returns the hash value of a specified object                                                   |
+| help()        | Executes the built-in help system                                                              |
+| hex()         | Converts a number into a hexadecimal value                                                     |
+| id()          | Returns the id of an object                                                                    |
+| input()       | Allowing user input                                                                            |
+| int()         | Returns an integer number                                                                      |
+| isinstance()  | Returns True if a specified object is an instance of a specified object                        |
+| issubclass()  | Returns True if a specified class is a subclass of a specified object                          |
+| iter()        | Returns an iterator object                                                                     |
+| len()         | Returns the length of an object                                                                |
+| list()        | Returns a list                                                                                 |
+| locals()      | Returns an updated dictionary of the current local symbol table                                |
+| map()         | Returns the specified iterator with the specified function applied to each item                |
+| max()         | Returns the largest item in an iterable                                                        |
+| memoryview()  | Returns a memory view object                                                                   |
+| min()         | Returns the smallest item in an iterable                                                       |
+| next()        | Returns the next item in an iterable                                                           |
+| object()      | Returns a new object                                                                           |
+| oct()         | Converts a number into an octal                                                                |
+| open()        | Opens a file and returns a file object                                                         |
+| ord()         | Convert an integer representing the Unicode of the specified character                         |
+| pow()         | Returns the value of x to the power of y                                                       |
