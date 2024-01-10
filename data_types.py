@@ -5,12 +5,12 @@
 #-------------------
 
 # literal assignment
-frist = "Oni"
+first = "Oni"
 last = "Fistik"
 
-print(type(frist)) # the type() function returns the type of an object | the output is <class 'str'>  'str' = string
-print(type(frist) == str) # == str is a Statment that means "the datatype is a string" | the output is a boolean in this case it is true 
-print(isinstance(frist, str)) # the isinstance() function returns True if a specified object is an instance of a specified object
+print(type(first)) # the type() function returns the type of an object | the output is <class 'str'>  'str' = string
+print(type(first) == str) # == str is a Statment that means "the datatype is a string" | the output is a boolean in this case it is true 
+print(isinstance(first, str)) # the isinstance() function returns True if a specified object is an instance of a specified object
 print("")
 
 # constructor function
@@ -22,7 +22,7 @@ print(isinstance(pizza, str)) # the isinstance() function returns True if a spec
 print("")
 
 # Concatenation
-fullname = frist + " " + last
+fullname = first + " " + last
 print(fullname)
 
 fullname += "!"
@@ -72,4 +72,32 @@ print("Donut".ljust(18, "-")+ "3€".rjust(2))
 print("Muffin".ljust(18, "-")+ "3€".rjust(2))
 print("°°°°°°°°°°°°°°°°°°°°")
 print("")
+
+# string index values
+print(first[0])
+print(first[-1])
+print(first[1:-1])
+print(first[1:])
+print("")
+
+# Some methods return boolean data
+print(first.startswith("O"))
+print(first.endswith("Z"))
+print("")
+
+
+#-------------------
+# Boolean data type
+#-------------------
+myvalue = True
+x = bool(False)
+print(type(x))
+print(isinstance(myvalue, bool))
+print("")
+
+
+#-------------------
+# Numeric data type
+#-------------------
+
 
