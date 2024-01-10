@@ -1,6 +1,6 @@
 # I'm learning Python :]
  
-Comments in Python = # Commenttext
+### Comments in Python = # Commenttext
 
 ## 1. Reserved words in Python <br>
 **Note - This list may change with different versions of Python. Python 3 has 33 while Python 2 has 30 reserved words. The print was removed from Python 2 keywords and added as a built-in Python function.** <br>
