@@ -100,4 +100,54 @@ print("")
 # Numeric data type
 #-------------------
 
+# integer type
+price = 101
+best_price = 80
+print(type(price))
+print(isinstance(best_price, int))
+print("")
+
+# float type
+gpa = 3.28
+y = float(1.14)
+print(type(gpa))
+print("")
+
+# complex type
+comp_value = 5+3j
+print(type(comp_value))
+print(comp_value.real)
+print(comp_value.imag)
+print("")
+
+# Built-in functions for numbers
+print(abs(gpa))
+print(abs(gpa * -1))
+
+print(round(gpa))
+
+print(round(gpa, 1))
+
+import math # should be on the top of the file
+
+print(math.pi)
+print(math.sqrt(64))
+print(math.ceil(gpa))
+print(math.floor(gpa))
+
+# Casting a string to a number
+zipcode = "20251"
+zip_value = int(zipcode)
+print(type(zip_value))
+
+# Error if you attempt to cast incorrect data
+# zip_value = int("Hamburg")
+
+
+
+
+
+
+
+
 
