@@ -1,8 +1,10 @@
 # Lesson 04 by Dave Gray
 
-#-------------------
-# String data type
-#-------------------
+"""
+-------------------
+String data type
+-------------------
+"""
 
 # literal assignment
 first = "Oni"
@@ -85,10 +87,11 @@ print(first.startswith("O"))
 print(first.endswith("Z"))
 print("")
 
-
-#-------------------
-# Boolean data type
-#-------------------
+"""
+-------------------
+Boolean data type
+-------------------
+"""
 myvalue = True
 x = bool(False)
 print(type(x))
@@ -96,10 +99,11 @@ print(isinstance(myvalue, bool))
 print("")
 
 
-#-------------------
-# Numeric data type
-#-------------------
-
+"""
+-------------------
+Numeric data type
+-------------------
+"""
 # integer type
 price = 101
 best_price = 80
