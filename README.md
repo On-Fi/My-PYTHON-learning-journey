@@ -84,5 +84,5 @@ Comments in Python = # Commenttext
 | super()          | Returns an object that represents the parent class                                             |
 | tuple()          | Returns a tuple                                                                                |
 | type()           | Returns the type of an object                                                                  |
-| vars()           | Returns the ___dict___ property of an object                                                     |
+| vars()           | Returns the ____dict____ property of an object                                                     |
 | zip()            | Returns an iterator, from two or more iterators                                                |
