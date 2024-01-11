@@ -8,8 +8,6 @@ class RPS(Enum):
     PAPER = 2
     SCISSORS = 3
 
-
-
 print("")
 print("")
 playerchoice = input("Enter... \n1 for Rock \n2 for Paper \n3 for Scissors:\n\n")
@@ -25,8 +23,8 @@ computer = int(computerchoice)
 
 print("")
 print("")
-print("You chose " + playerchoice + ".")
-print("Python chose " + computerchoice + ".")
+print("You chose " + str(RPS(player)).replace("RPS.", "")+ ".")
+print("Python chose " + str(RPS(computer)).replace("RPS.", "")+ ".")
 print("")
 print("")
 
