@@ -22,3 +22,16 @@ print(band.keys())
 
 # list all vaules
 print(band.values())
+
+# list of key/value pairs as tuples
+print(band.items())
+
+# verify a key exists
+print("guitar" in band)
+print("piano" in band)
+
+# Change values
+band["vocals"] = "Coverdale"
+band.update({"bass": "JPJ"})
+
+print(band)
