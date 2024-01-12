@@ -12,3 +12,13 @@ print(band2)
 
 print(type(band))
 print(len(band))
+
+# Access items 
+print(band["vocals"])
+print(band.get("guitar"))
+
+# list all keys
+print(band.keys())
+
+# list all vaules
+print(band.values())
