@@ -1,4 +1,7 @@
 # Dictionaries
+from operator import ne
+
+
 band = {
     "vocals" : "Plant",
     "guitar" : "Page"
@@ -20,7 +23,7 @@ print(band.get("guitar"))
 # list all keys
 print(band.keys())
 
-# list all vaules
+# list all values
 print(band.values())
 
 # list of key/value pairs as tuples
@@ -56,6 +59,21 @@ band["drums"] = "Bonham"
 band.clear()
 print(band)
 
+# nested dictionaries
+band = {
+    "vocals" : {
+        "name" : "Mercury",
+        "age" : 72
+    },
+    "guitar" : {
+        "name" : "May",
+        "age" : 76
+    }
+}           
+print(band)
+
+print(band["vocals"]["name"])
+
 # Looping
 band = {
     "vocals" : "Plant",
@@ -79,4 +97,10 @@ print(band2)
 print(band3)
 print(band4)
 
-print(id(band))
+print(id(band)) # memory address                                    
+print(id(band2)) # memory address
+print(id(band3)) # memory address
+print(id(band4)) # memory address
+
+band["vocals"] = "Coverdale"
+
