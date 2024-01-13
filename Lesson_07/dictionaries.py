@@ -51,3 +51,30 @@ print(band)
 band["drums"] = "Bonham"
 del band["drums"]
 print(band)
+
+band["drums"] = "Bonham"
+band.clear()
+print(band)
+
+# Looping
+band = {
+    "vocals" : "Plant",
+    "guitar" : "Page",
+    "bass" : "JPJ",
+    "drums" : "Bonham"
+}
+
+for key in band:
+    print(key, band[key])
+
+for key, value in band.items():
+    print(key, value)
+
+# Copying   
+band2 = band.copy() # shallow copy                                      
+band3 = dict(band) # shallow copy   
+band4 = band # shallow copy
+
+print(band2)
+print(band3)
+print(band4)
