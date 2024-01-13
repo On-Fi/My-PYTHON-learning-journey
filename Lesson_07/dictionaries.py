@@ -78,3 +78,5 @@ band4 = band # shallow copy
 print(band2)
 print(band3)
 print(band4)
+
+print(id(band))
